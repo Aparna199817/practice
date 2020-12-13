@@ -81,10 +81,8 @@ let users = [
   {id: 2, name: "Pete"},
   {id: 3, name: "Mary"}
 ];
-
 let userss = users.find(item => item.id == 1);
-
 console.log(userss.name);
-*/
 let lengths = ["Bilbo", "Gandalf", "Nazgul"].map(item => item.length);
 console.log(lengths);
+*/
