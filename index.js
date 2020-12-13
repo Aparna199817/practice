@@ -59,5 +59,32 @@ let ap={
     }
 };
 ap.sayHi()
+//array methods
+let fruits = ["Apple", "Orange", "Banana"];
+console.log( fruits.pop() ); 
+console.log( fruits );
+console.log(fruits.push("Banana"));
+console.log( fruits );
+console.log(fruits.shift());
+console.log(fruits);
+console.log(fruits.unshift("Apple"));
+console.log(fruits);
+let array=["I","study","complex","language","javascript"];
+let removed=array.splice(2,3);
+console.log(removed);
+array.splice(2,0,"complex","language");
+console.log(array); 
+console.log(array.slice(1,2));
+console.log(array.concat("javascript"));
+let users = [
+  {id: 1, name: "John"},
+  {id: 2, name: "Pete"},
+  {id: 3, name: "Mary"}
+];
+
+let userss = users.find(item => item.id == 1);
+
+console.log(userss.name);
 */
-//
+let lengths = ["Bilbo", "Gandalf", "Nazgul"].map(item => item.length);
+console.log(lengths);
